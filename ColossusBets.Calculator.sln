@@ -1,0 +1,89 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColossusBets.Calculator.Console", "ColossusBets.Calculator.Console\ColossusBets.Calculator.Console.csproj", "{6D9783B9-7806-4CE6-9EC9-2B931247DCB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColossusBets.Calculator.Service", "ColossusBets.Calculator.Service\ColossusBets.Calculator.Service.csproj", "{32325218-4575-4EF6-A489-CA3F60FB87F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColossusBets.Calculator.Service.Data", "ColossusBets.Calculator.Service.Data\ColossusBets.Calculator.Service.Data.csproj", "{20E8165E-FA02-4AB9-9975-09FE3EC6F557}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColossusBets.Calculator.Service.Implementation", "ColossusBets.Calculator.Service.Implementation\ColossusBets.Calculator.Service.Implementation.csproj", "{919B8595-68FB-4EA5-81E7-336C140850EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColossusBets.Calculator.Api", "ColossusBets.Calculator.Api\ColossusBets.Calculator.Api.csproj", "{650D02FF-F58D-4326-A80E-35549BA292E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColossusBets.Calculator.DependencyResolver", "ColossusBets.Calculator.DependencyResolver\ColossusBets.Calculator.DependencyResolver.csproj", "{6B68348D-0409-4788-92CC-46DD9984B2B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColossusBets.Calculator.Service.Implementation.Test", "ColossusBets.Calculator.Service.Implementation.Test\ColossusBets.Calculator.Service.Implementation.Test.csproj", "{3C00EB62-5863-4948-ACEB-157FD6FF5421}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{FEBEDDF3-0B26-4E0F-B6B4-328380ADB423}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataService", "DataService", "{F59F6F2F-59A9-4FAF-9BD1-A08F1A96BDF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColossusBets.Calculator.DataService", "ColossusBets.Calculator.DataService\ColossusBets.Calculator.DataService.csproj", "{899EFC1D-1C4A-4B47-ADC9-1DFFE3C88DB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColossusBets.Calculator.DataService.Ef6Model", "ColossusBets.Calculator.DataService.Model\ColossusBets.Calculator.DataService.Ef6Model.csproj", "{6C95BB70-74C2-4F37-917F-94B76755C600}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColossusBets.Calculator.DataService.Ef6", "ColossusBets.Calculator.DataService.Ef6\ColossusBets.Calculator.DataService.Ef6.csproj", "{EB9D550A-CACD-48B8-A48E-0B406FAE56B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D9783B9-7806-4CE6-9EC9-2B931247DCB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D9783B9-7806-4CE6-9EC9-2B931247DCB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D9783B9-7806-4CE6-9EC9-2B931247DCB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D9783B9-7806-4CE6-9EC9-2B931247DCB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32325218-4575-4EF6-A489-CA3F60FB87F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32325218-4575-4EF6-A489-CA3F60FB87F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32325218-4575-4EF6-A489-CA3F60FB87F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32325218-4575-4EF6-A489-CA3F60FB87F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20E8165E-FA02-4AB9-9975-09FE3EC6F557}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20E8165E-FA02-4AB9-9975-09FE3EC6F557}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20E8165E-FA02-4AB9-9975-09FE3EC6F557}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20E8165E-FA02-4AB9-9975-09FE3EC6F557}.Release|Any CPU.Build.0 = Release|Any CPU
+		{919B8595-68FB-4EA5-81E7-336C140850EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{919B8595-68FB-4EA5-81E7-336C140850EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{919B8595-68FB-4EA5-81E7-336C140850EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{919B8595-68FB-4EA5-81E7-336C140850EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{650D02FF-F58D-4326-A80E-35549BA292E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{650D02FF-F58D-4326-A80E-35549BA292E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{650D02FF-F58D-4326-A80E-35549BA292E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{650D02FF-F58D-4326-A80E-35549BA292E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B68348D-0409-4788-92CC-46DD9984B2B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B68348D-0409-4788-92CC-46DD9984B2B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B68348D-0409-4788-92CC-46DD9984B2B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B68348D-0409-4788-92CC-46DD9984B2B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C00EB62-5863-4948-ACEB-157FD6FF5421}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C00EB62-5863-4948-ACEB-157FD6FF5421}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C00EB62-5863-4948-ACEB-157FD6FF5421}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C00EB62-5863-4948-ACEB-157FD6FF5421}.Release|Any CPU.Build.0 = Release|Any CPU
+		{899EFC1D-1C4A-4B47-ADC9-1DFFE3C88DB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{899EFC1D-1C4A-4B47-ADC9-1DFFE3C88DB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{899EFC1D-1C4A-4B47-ADC9-1DFFE3C88DB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{899EFC1D-1C4A-4B47-ADC9-1DFFE3C88DB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C95BB70-74C2-4F37-917F-94B76755C600}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C95BB70-74C2-4F37-917F-94B76755C600}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C95BB70-74C2-4F37-917F-94B76755C600}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C95BB70-74C2-4F37-917F-94B76755C600}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB9D550A-CACD-48B8-A48E-0B406FAE56B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB9D550A-CACD-48B8-A48E-0B406FAE56B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB9D550A-CACD-48B8-A48E-0B406FAE56B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB9D550A-CACD-48B8-A48E-0B406FAE56B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{32325218-4575-4EF6-A489-CA3F60FB87F6} = {FEBEDDF3-0B26-4E0F-B6B4-328380ADB423}
+		{20E8165E-FA02-4AB9-9975-09FE3EC6F557} = {FEBEDDF3-0B26-4E0F-B6B4-328380ADB423}
+		{919B8595-68FB-4EA5-81E7-336C140850EC} = {FEBEDDF3-0B26-4E0F-B6B4-328380ADB423}
+		{3C00EB62-5863-4948-ACEB-157FD6FF5421} = {FEBEDDF3-0B26-4E0F-B6B4-328380ADB423}
+		{899EFC1D-1C4A-4B47-ADC9-1DFFE3C88DB6} = {F59F6F2F-59A9-4FAF-9BD1-A08F1A96BDF2}
+		{6C95BB70-74C2-4F37-917F-94B76755C600} = {F59F6F2F-59A9-4FAF-9BD1-A08F1A96BDF2}
+		{EB9D550A-CACD-48B8-A48E-0B406FAE56B7} = {F59F6F2F-59A9-4FAF-9BD1-A08F1A96BDF2}
+	EndGlobalSection
+EndGlobal
